@@ -19,6 +19,21 @@ npm i express --save (o nome da pasta não pode ter no mesmo nome do framework s
 
 o comando '--save'  é para salvar os dados do pacote que esta sendo instalado no arquivo identificador.(package-lock.json)
 
+usando express um servidor pode ser criado com pucas linhas de codigo 
+
+----------------------------------------------------------------------------------------
+para absolutamente todo tipo de rota tem que ter uma reposta para o usuario senão a aplicação trava na requisição
+-------------------------------------------------------------------------
+nodemon 
+ É um Aplicativo que monitora as modificações nos aQruivos de uma plicação e reinicia ela de forma automatica sem que porgramador precise 
+ reiniciar o servidor cada vez que haja uma modificação no codigo.
+ 
+npm i nodemon -g --save
+-----------------------------------------------------------------------------------------------------
+
+
+
+
 
 
 
