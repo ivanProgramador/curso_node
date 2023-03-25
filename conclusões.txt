@@ -31,6 +31,7 @@ nodemon
 npm i nodemon -g --save
 -----------------------------------------------------------------------------------------------------
 
+final da fase 3 aprendi todos os conceitos sobre express e rotas e tipos de requisição  
 
 
 

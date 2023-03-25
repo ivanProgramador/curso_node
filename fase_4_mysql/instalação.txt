@@ -1,0 +1,57 @@
+INSTALAÇÃO
+
+Normalmente eu estou acostumado instalar o mysql atraves do xampp no caso deste curso ele ensina como instalar somente o mysql,
+basicamente um executavel é baixado, mas ele dá a possibeilidade de escolher tres modos de instalação.
+
+maquina de desenvolvimento
+  ele usa o mini possivel de memoria do computador, para que as outras aplicações tenham espaço pra rodar 
+  tambem.
+
+maquina dedicada
+   ele usa todos os recurosos que maquina pode oferecer sem se importar com as outras aplicações que não são dele.
+
+servidor web
+   ele usa metade da memoria da maquina e a outra metade fica livre para as outra aplicações.
+
+CLI 
+   o mysql server tem uma ferramenta de linha de comando mas pra usar ela e preciso configurar antes, 
+   não é como o node ou git que ja ficam atrelados ao cmd automaticamnte após a instalação.
+
+
+para configurar acessei a pasta bin do mysql
+
+C:\Program Files\MySQL\MySQL Server 8.0\bin
+
+copiei o link da pasta 
+
+e adicionei o caminho as sua variveis de ambiente do tipo path'variveis do tipo path são repoonsaveis por apontar para executaveis dentro do s.o'
+
+tambem é possivel acessar pelo mysql comand line que ele ja tras pronto ele só vai pedir a senha que foi cadastrada no instalador 
+
+usando o mysql por linha de comando 
+
+acesso basico exige  4 parametros 
+  -h -> host 
+  -u -> usuario
+  -p -> senha 
+
+
+basicamente o comando fica assim 
+mysql -h localhost -u root -p 
+
+depois que essa linha fr executada ele desce pra proxima linha e pede a senha 
+
+COMANDOS NO TERMINAL
+
+SHOW DATABASES; -> VISUALIZA TODAS AS BASES DE DADOS DENTRO DELE
+
+CREATE DATABASE sistemaDeCdastro; -> CRIA UMA BASE DE DADOS 
+
+
+
+
+
+
+
+
+
