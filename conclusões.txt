@@ -1,0 +1,27 @@
+Node
+
+O node é um interpretador de javascript que normalmente vem embutido em navegadores de internet para que os codigos js possam 
+ser reconhecidos e executados nos navegadores. o objetivo agora é executar codigos javascript em desktops como se fossem linguagens
+como java, c# ....
+
+neste documento vai ser descrito a minha evolução e minhas conclusões pessoais a respeito doque eu vou aprender neste curso.
+
+
+npm = Node Package Manager (é um gerenciador de pacotes do node usado para instalar, desinstalar,ataualiza pacotes dos projetos)
+
+npm init -y  = gera uma arquivo identificador do projeto que mostra nome, versão,aruivo de inicio e mapeia as dependencias instaladas.   
+
+Express 
+
+é um framework usado para criar o backend de aplicações web que usam o javascript, como ele é possivel ciriar servidores http e apis.
+
+npm i express --save (o nome da pasta não pode ter no mesmo nome do framework se tiver erle se recusa a instalar)
+
+o comando '--save'  é para salvar os dados do pacote que esta sendo instalado no arquivo identificador.(package-lock.json)
+
+
+
+
+
+
+
