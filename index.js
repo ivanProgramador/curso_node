@@ -50,7 +50,7 @@ app.get('/blog/:artigo?',function(req,res){
     var artigo = req.params.artigo;
 
     if(artigo){
-        
+
           res.send('<h2>' + artigo + '</h2');
 
     }else{
@@ -58,6 +58,32 @@ app.get('/blog/:artigo?',function(req,res){
           res.send('Bem vindo do blog: Guia do programador');
     }
 
+});
+
+
+//Query params 
+// Esse tipo de parametro é totalmente opcional ele não esta sendo definido na rota, ele não é exigido
+// esse tipo de paramentro e passado pela url por exemplo eu posso acessar a rota /yutube, mas se eu quiser
+//eu posso especificar um canal por exemplo '/yutube?canal=guiadoprogramador' 
+//a rota abaixo tem um tratamento pra esse tipo de paramentro mas se ele não vier ela não vai falhar 
+
+app.get('/yutube',function(req,res){
+
+
+ // se o cliente mandar um query param ele recebe e mostra na tela 
+ //se ele não mandar ele mostra nenhum canal solicitado , ou seja a rota não vai falhar
+   
+    var canal = req.query['canal'];
+    
+    if(canal){
+
+        res.send('<h1>' + canal + '</h1>');
+
+    }else{
+
+        res.send('Nenhum canal solicitado');
+
+    }
 });
 
 
